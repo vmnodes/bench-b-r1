@@ -1,0 +1,20 @@
+{
+  "name": "expense-claims",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Expense claims: staff submit a claim, an approver approves or rejects it.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node dev/run-local.js",
+    "test": "node test/claims.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@vmnodes/identity": "file:vendor/vmnodes-identity-0.1.0.tgz",
+    "jose": "^5.9.0",
+    "postgres": "^3.4.9"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "apiVersion": "vmnodes.com/v1",
+  "roles": [
+    {
+      "name": "expense-claims.submitter",
+      "description": "Can submit expense claims and see their own claims and whether each was approved."
+    },
+    {
+      "name": "expense-claims.approver",
+      "description": "Can see everyone's expense claims and approve or reject them, but never their own. Can also submit claims."
+    }
+  ],
+  "database": true
+}
